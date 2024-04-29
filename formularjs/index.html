@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honigbestellung</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+
+    <h1>Übung Honigbestellung</h1>
+
+    <p>Bitte geben Sie die Bestellmenge an (Einheit 500ml Glas)</p>
+    <div class="headText">
+      <p><strong>Honig</strong></p>
+      <p><strong>|</strong></p>
+      <p><strong>Menge</strong></p>
+    </div>
+
+    <form id="orderForm" action="./bestellung/index.html">
+      <div class="input">
+        <p>Akazienhonig</p>
+        <input type="text" name="Akazienhonig" />
+      </div>
+      <div class="input">
+        <p>Heidehonig</p>
+        <input type="text" name="Heidehonig" />
+      </div>
+      <div class="input">
+        <p>Kleehonig</p>
+        <input type="text" name="Kleehonig" />
+      </div>
+      <div class="input">
+        <p>Tannenhonig</p>
+        <input type="text" name="Tannenhonig" />
+      </div>
+
+      <br />
+      <input type="submit" value="Abschicken" />
+    </form>
+  </body>
+</html>

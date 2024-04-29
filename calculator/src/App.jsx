@@ -36,14 +36,14 @@ export default function App() {
           <CalcButton value="5" onClick={() => handleClick("5")} />
           <CalcButton value="6" onClick={() => handleClick("6")} />
           <CalcButton value="-" onClick={() => handleClick("-")} />
-          <CalcButton value="(" onClick={() => handleClick("(")}></CalcButton>
+          <CalcButton value="(" onClick={() => handleClick("(")} />
         </div>
         <div>
           <CalcButton value="7" onClick={() => handleClick("7")} />
           <CalcButton value="8" onClick={() => handleClick("8")} />
           <CalcButton value="9" onClick={() => handleClick("9")} />
           <CalcButton value="*" onClick={() => handleClick("*")} />
-          <CalcButton value=")" onClick={() => handleClick(")")}></CalcButton>
+          <CalcButton value=")" onClick={() => handleClick(")")} />
         </div>
         <div>
           <CalcButton value="C" onClick={() => setResult("")} />

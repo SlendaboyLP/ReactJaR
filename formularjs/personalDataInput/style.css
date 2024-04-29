@@ -1,0 +1,11 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.headText {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+}
